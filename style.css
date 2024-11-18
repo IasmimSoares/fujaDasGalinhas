@@ -7,55 +7,98 @@ header{
 
 }
 
-#titulo{
+#apresentacao{
     margin: 90px;
-    width:100vw;
     height:300px;
-   
 
     background-color:rgb(207, 255, 192);
+    display: flex;
 }
 #btnDownload{
+    margin-top:30px;
     background-color: rgb(59, 113, 160);
-    width:20px;
+    width:200px;
     height:20px;
     border: 100px;
     top: 5005px;
     left: 80px;
-    display:flex;
 }
 #galinha{
 width:300px;
 height:300px;
 }
 
-#nome{
+#tituloJogo{
     width:1000px;
     height: 50px;
 }
+
 #obs{
     width: 500px;
-   height: 10px;
+   height: 120px;
+   text-align:justify;
 }
 
-#clas1{
+#img1{
     background-color: rgb(187, 106, 35);;
     border-radius: 100px;
     width:80px;
     height: 80px;
     margin: 150px;
 }
-#clas2{
+#img2{
     background-color:rgba(27, 126, 171, 0.549);
     width: 80px;
     height: 80px;
     margin:150px;
     border-radius:100px;
 }   
-#clas3{
+#img3{
     background-color:rgba(16, 3, 3, 0.227);
     width:80px;
     height:80px;
     margin: 150px;
     border-radius:100px;
+}
+#Personagem{
+    background-color: aqua;
+    width:20px;
+    height:20px;
+
+}
+#descricoes{
+    display:flex;
+    align-items:center;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+#descriçao{
+        width: 200px;
+        height:100px;
+        margin-top:50px;
+        }
+#Jogo{
+    background-color: rgb(36, 156, 94);
+    text-align:center;
+    align-items:center;
+    height:100px;
+    width:100px;
+}
+
+div{
+    background-color: blueviolet;
+    width:200px;
+    height:80px;
+    border-radius:40px;
+}
+#quad{
+    background-color: aquamarine;
+    width:200px;
+    height:80px;
+}
+#quad1{
+    background-color: blue;
+    width:200px;
+    height:80px;
 }
